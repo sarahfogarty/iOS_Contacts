@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>iOS Black Belt - 1st wireframe 2nd attempt.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>FDA7243D1E884E8100605555</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FDA724541E884E8100605555</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FDA7245F1E884E8200605555</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

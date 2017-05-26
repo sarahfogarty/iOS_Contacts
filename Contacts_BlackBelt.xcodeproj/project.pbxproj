@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDA724421E884E8100605555 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA724411E884E8100605555 /* AppDelegate.swift */; };
+		FDA724441E884E8100605555 /* ContactListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA724431E884E8100605555 /* ContactListTableViewController.swift */; };
+		FDA724471E884E8100605555 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA724451E884E8100605555 /* Main.storyboard */; };
+		FDA7244A1E884E8100605555 /* iOS_Black_Belt___1st_wireframe_2nd_attempt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FDA724481E884E8100605555 /* iOS_Black_Belt___1st_wireframe_2nd_attempt.xcdatamodeld */; };
+		FDA7244C1E884E8100605555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA7244B1E884E8100605555 /* Assets.xcassets */; };
+		FDA7244F1E884E8100605555 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA7244D1E884E8100605555 /* LaunchScreen.storyboard */; };
+		FDA7245A1E884E8200605555 /* iOS_Black_Belt___1st_wireframe_2nd_attemptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA724591E884E8200605555 /* iOS_Black_Belt___1st_wireframe_2nd_attemptTests.swift */; };
+		FDA724651E884E8200605555 /* iOS_Black_Belt___1st_wireframe_2nd_attemptUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA724641E884E8200605555 /* iOS_Black_Belt___1st_wireframe_2nd_attemptUITests.swift */; };
+		FDA724731E884F8D00605555 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA724721E884F8D00605555 /* ContactCell.swift */; };
+		FDA724751E8858A400605555 /* AddItemDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA724741E8858A400605555 /* AddItemDelegate.swift */; };
+		FDA724771E88592100605555 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA724761E88592100605555 /* AddItemViewController.swift */; };
+		FDA7247A1E888FDD00605555 /* Contacts+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA724781E888FDD00605555 /* Contacts+CoreDataClass.swift */; };
+		FDA7247B1E888FDD00605555 /* Contacts+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA724791E888FDD00605555 /* Contacts+CoreDataProperties.swift */; };
+		FDA7247D1E89B60100605555 /* DisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA7247C1E89B60000605555 /* DisplayViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDA724561E884E8100605555 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDA724361E884E8100605555 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDA7243D1E884E8100605555;
+			remoteInfo = "iOS Black Belt - 1st wireframe 2nd attempt";
+		};
+		FDA724611E884E8200605555 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDA724361E884E8100605555 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDA7243D1E884E8100605555;
+			remoteInfo = "iOS Black Belt - 1st wireframe 2nd attempt";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDA7243E1E884E8100605555 /* iOS Black Belt - 1st wireframe 2nd attempt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Black Belt - 1st wireframe 2nd attempt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA724411E884E8100605555 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDA724431E884E8100605555 /* ContactListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListTableViewController.swift; sourceTree = "<group>"; };
+		FDA724461E884E8100605555 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDA724491E884E8100605555 /* iOS_Black_Belt___1st_wireframe_2nd_attempt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "iOS_Black_Belt___1st_wireframe_2nd_attempt.xcdatamodel"; sourceTree = "<group>"; };
+		FDA7244B1E884E8100605555 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDA7244E1E884E8100605555 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDA724501E884E8100605555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDA724551E884E8100605555 /* iOS Black Belt - 1st wireframe 2nd attemptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Black Belt - 1st wireframe 2nd attemptTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA724591E884E8200605555 /* iOS_Black_Belt___1st_wireframe_2nd_attemptTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iOS_Black_Belt___1st_wireframe_2nd_attemptTests.swift"; sourceTree = "<group>"; };
+		FDA7245B1E884E8200605555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDA724601E884E8200605555 /* iOS Black Belt - 1st wireframe 2nd attemptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Black Belt - 1st wireframe 2nd attemptUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA724641E884E8200605555 /* iOS_Black_Belt___1st_wireframe_2nd_attemptUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iOS_Black_Belt___1st_wireframe_2nd_attemptUITests.swift"; sourceTree = "<group>"; };
+		FDA724661E884E8200605555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDA724721E884F8D00605555 /* ContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		FDA724741E8858A400605555 /* AddItemDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemDelegate.swift; sourceTree = "<group>"; };
+		FDA724761E88592100605555 /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		FDA724781E888FDD00605555 /* Contacts+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Contacts+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FDA724791E888FDD00605555 /* Contacts+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Contacts+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FDA7247C1E89B60000605555 /* DisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDA7243B1E884E8100605555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA724521E884E8100605555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA7245D1E884E8200605555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDA724351E884E8100605555 = {
+			isa = PBXGroup;
+			children = (
+				FDA724781E888FDD00605555 /* Contacts+CoreDataClass.swift */,
+				FDA724791E888FDD00605555 /* Contacts+CoreDataProperties.swift */,
+				FDA724401E884E8100605555 /* iOS Black Belt - 1st wireframe 2nd attempt */,
+				FDA724581E884E8200605555 /* iOS Black Belt - 1st wireframe 2nd attemptTests */,
+				FDA724631E884E8200605555 /* iOS Black Belt - 1st wireframe 2nd attemptUITests */,
+				FDA7243F1E884E8100605555 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDA7243F1E884E8100605555 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDA7243E1E884E8100605555 /* iOS Black Belt - 1st wireframe 2nd attempt.app */,
+				FDA724551E884E8100605555 /* iOS Black Belt - 1st wireframe 2nd attemptTests.xctest */,
+				FDA724601E884E8200605555 /* iOS Black Belt - 1st wireframe 2nd attemptUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDA724401E884E8100605555 /* iOS Black Belt - 1st wireframe 2nd attempt */ = {
+			isa = PBXGroup;
+			children = (
+				FDA724411E884E8100605555 /* AppDelegate.swift */,
+				FDA724431E884E8100605555 /* ContactListTableViewController.swift */,
+				FDA7247C1E89B60000605555 /* DisplayViewController.swift */,
+				FDA724451E884E8100605555 /* Main.storyboard */,
+				FDA724741E8858A400605555 /* AddItemDelegate.swift */,
+				FDA724761E88592100605555 /* AddItemViewController.swift */,
+				FDA724721E884F8D00605555 /* ContactCell.swift */,
+				FDA7244B1E884E8100605555 /* Assets.xcassets */,
+				FDA7244D1E884E8100605555 /* LaunchScreen.storyboard */,
+				FDA724501E884E8100605555 /* Info.plist */,
+				FDA724481E884E8100605555 /* iOS_Black_Belt___1st_wireframe_2nd_attempt.xcdatamodeld */,
+			);
+			path = "iOS Black Belt - 1st wireframe 2nd attempt";
+			sourceTree = "<group>";
+		};
+		FDA724581E884E8200605555 /* iOS Black Belt - 1st wireframe 2nd attemptTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDA724591E884E8200605555 /* iOS_Black_Belt___1st_wireframe_2nd_attemptTests.swift */,
+				FDA7245B1E884E8200605555 /* Info.plist */,
+			);
+			path = "iOS Black Belt - 1st wireframe 2nd attemptTests";
+			sourceTree = "<group>";
+		};
+		FDA724631E884E8200605555 /* iOS Black Belt - 1st wireframe 2nd attemptUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDA724641E884E8200605555 /* iOS_Black_Belt___1st_wireframe_2nd_attemptUITests.swift */,
+				FDA724661E884E8200605555 /* Info.plist */,
+			);
+			path = "iOS Black Belt - 1st wireframe 2nd attemptUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDA7243D1E884E8100605555 /* iOS Black Belt - 1st wireframe 2nd attempt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA724691E884E8200605555 /* Build configuration list for PBXNativeTarget "iOS Black Belt - 1st wireframe 2nd attempt" */;
+			buildPhases = (
+				FDA7243A1E884E8100605555 /* Sources */,
+				FDA7243B1E884E8100605555 /* Frameworks */,
+				FDA7243C1E884E8100605555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Black Belt - 1st wireframe 2nd attempt";
+			productName = "iOS Black Belt - 1st wireframe 2nd attempt";
+			productReference = FDA7243E1E884E8100605555 /* iOS Black Belt - 1st wireframe 2nd attempt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDA724541E884E8100605555 /* iOS Black Belt - 1st wireframe 2nd attemptTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA7246C1E884E8200605555 /* Build configuration list for PBXNativeTarget "iOS Black Belt - 1st wireframe 2nd attemptTests" */;
+			buildPhases = (
+				FDA724511E884E8100605555 /* Sources */,
+				FDA724521E884E8100605555 /* Frameworks */,
+				FDA724531E884E8100605555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDA724571E884E8100605555 /* PBXTargetDependency */,
+			);
+			name = "iOS Black Belt - 1st wireframe 2nd attemptTests";
+			productName = "iOS Black Belt - 1st wireframe 2nd attemptTests";
+			productReference = FDA724551E884E8100605555 /* iOS Black Belt - 1st wireframe 2nd attemptTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDA7245F1E884E8200605555 /* iOS Black Belt - 1st wireframe 2nd attemptUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA7246F1E884E8200605555 /* Build configuration list for PBXNativeTarget "iOS Black Belt - 1st wireframe 2nd attemptUITests" */;
+			buildPhases = (
+				FDA7245C1E884E8200605555 /* Sources */,
+				FDA7245D1E884E8200605555 /* Frameworks */,
+				FDA7245E1E884E8200605555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDA724621E884E8200605555 /* PBXTargetDependency */,
+			);
+			name = "iOS Black Belt - 1st wireframe 2nd attemptUITests";
+			productName = "iOS Black Belt - 1st wireframe 2nd attemptUITests";
+			productReference = FDA724601E884E8200605555 /* iOS Black Belt - 1st wireframe 2nd attemptUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDA724361E884E8100605555 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Sarah Fogarty";
+				TargetAttributes = {
+					FDA7243D1E884E8100605555 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3SR5NL5Q9L;
+						ProvisioningStyle = Automatic;
+					};
+					FDA724541E884E8100605555 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3SR5NL5Q9L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FDA7243D1E884E8100605555;
+					};
+					FDA7245F1E884E8200605555 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3SR5NL5Q9L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FDA7243D1E884E8100605555;
+					};
+				};
+			};
+			buildConfigurationList = FDA724391E884E8100605555 /* Build configuration list for PBXProject "iOS Black Belt - 1st wireframe 2nd attempt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDA724351E884E8100605555;
+			productRefGroup = FDA7243F1E884E8100605555 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDA7243D1E884E8100605555 /* iOS Black Belt - 1st wireframe 2nd attempt */,
+				FDA724541E884E8100605555 /* iOS Black Belt - 1st wireframe 2nd attemptTests */,
+				FDA7245F1E884E8200605555 /* iOS Black Belt - 1st wireframe 2nd attemptUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDA7243C1E884E8100605555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA7244F1E884E8100605555 /* LaunchScreen.storyboard in Resources */,
+				FDA7244C1E884E8100605555 /* Assets.xcassets in Resources */,
+				FDA724471E884E8100605555 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA724531E884E8100605555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA7245E1E884E8200605555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDA7243A1E884E8100605555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA724731E884F8D00605555 /* ContactCell.swift in Sources */,
+				FDA724751E8858A400605555 /* AddItemDelegate.swift in Sources */,
+				FDA7247B1E888FDD00605555 /* Contacts+CoreDataProperties.swift in Sources */,
+				FDA724441E884E8100605555 /* ContactListTableViewController.swift in Sources */,
+				FDA7247A1E888FDD00605555 /* Contacts+CoreDataClass.swift in Sources */,
+				FDA724421E884E8100605555 /* AppDelegate.swift in Sources */,
+				FDA7244A1E884E8100605555 /* iOS_Black_Belt___1st_wireframe_2nd_attempt.xcdatamodeld in Sources */,
+				FDA7247D1E89B60100605555 /* DisplayViewController.swift in Sources */,
+				FDA724771E88592100605555 /* AddItemViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA724511E884E8100605555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA7245A1E884E8200605555 /* iOS_Black_Belt___1st_wireframe_2nd_attemptTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA7245C1E884E8200605555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA724651E884E8200605555 /* iOS_Black_Belt___1st_wireframe_2nd_attemptUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDA724571E884E8100605555 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDA7243D1E884E8100605555 /* iOS Black Belt - 1st wireframe 2nd attempt */;
+			targetProxy = FDA724561E884E8100605555 /* PBXContainerItemProxy */;
+		};
+		FDA724621E884E8200605555 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDA7243D1E884E8100605555 /* iOS Black Belt - 1st wireframe 2nd attempt */;
+			targetProxy = FDA724611E884E8200605555 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDA724451E884E8100605555 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDA724461E884E8100605555 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDA7244D1E884E8100605555 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDA7244E1E884E8100605555 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDA724671E884E8200605555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDA724681E884E8200605555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDA7246A1E884E8200605555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3SR5NL5Q9L;
+				INFOPLIST_FILE = "iOS Black Belt - 1st wireframe 2nd attempt/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarahfogarty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FDA7246B1E884E8200605555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3SR5NL5Q9L;
+				INFOPLIST_FILE = "iOS Black Belt - 1st wireframe 2nd attempt/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarahfogarty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FDA7246D1E884E8200605555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3SR5NL5Q9L;
+				INFOPLIST_FILE = "iOS Black Belt - 1st wireframe 2nd attemptTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sarahfogarty.iOS-Black-Belt---1st-wireframe-2nd-attemptTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Black Belt - 1st wireframe 2nd attempt.app/iOS Black Belt - 1st wireframe 2nd attempt";
+			};
+			name = Debug;
+		};
+		FDA7246E1E884E8200605555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3SR5NL5Q9L;
+				INFOPLIST_FILE = "iOS Black Belt - 1st wireframe 2nd attemptTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sarahfogarty.iOS-Black-Belt---1st-wireframe-2nd-attemptTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Black Belt - 1st wireframe 2nd attempt.app/iOS Black Belt - 1st wireframe 2nd attempt";
+			};
+			name = Release;
+		};
+		FDA724701E884E8200605555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3SR5NL5Q9L;
+				INFOPLIST_FILE = "iOS Black Belt - 1st wireframe 2nd attemptUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sarahfogarty.iOS-Black-Belt---1st-wireframe-2nd-attemptUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "iOS Black Belt - 1st wireframe 2nd attempt";
+			};
+			name = Debug;
+		};
+		FDA724711E884E8200605555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3SR5NL5Q9L;
+				INFOPLIST_FILE = "iOS Black Belt - 1st wireframe 2nd attemptUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sarahfogarty.iOS-Black-Belt---1st-wireframe-2nd-attemptUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "iOS Black Belt - 1st wireframe 2nd attempt";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDA724391E884E8100605555 /* Build configuration list for PBXProject "iOS Black Belt - 1st wireframe 2nd attempt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA724671E884E8200605555 /* Debug */,
+				FDA724681E884E8200605555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDA724691E884E8200605555 /* Build configuration list for PBXNativeTarget "iOS Black Belt - 1st wireframe 2nd attempt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA7246A1E884E8200605555 /* Debug */,
+				FDA7246B1E884E8200605555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDA7246C1E884E8200605555 /* Build configuration list for PBXNativeTarget "iOS Black Belt - 1st wireframe 2nd attemptTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA7246D1E884E8200605555 /* Debug */,
+				FDA7246E1E884E8200605555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDA7246F1E884E8200605555 /* Build configuration list for PBXNativeTarget "iOS Black Belt - 1st wireframe 2nd attemptUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA724701E884E8200605555 /* Debug */,
+				FDA724711E884E8200605555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FDA724481E884E8100605555 /* iOS_Black_Belt___1st_wireframe_2nd_attempt.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FDA724491E884E8100605555 /* iOS_Black_Belt___1st_wireframe_2nd_attempt.xcdatamodel */,
+			);
+			currentVersion = FDA724491E884E8100605555 /* iOS_Black_Belt___1st_wireframe_2nd_attempt.xcdatamodel */;
+			path = "iOS_Black_Belt___1st_wireframe_2nd_attempt.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FDA724361E884E8100605555 /* Project object */;
+}
